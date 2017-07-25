@@ -25,75 +25,75 @@
   <string name="menu_show_substratum_icons">アイコンオーバーレイを表示</string>
   <string name="menu_hide_substratum_icons">アイコンオーバーレイを表示しない</string>
   <!-- App Ops Settings -->
-  <string name="app_ops_cat_location">Location</string>
+  <string name="app_ops_cat_location">場所</string>
   <string name="app_ops_cat_personal">個人情報</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_messaging">メッセージ</string>
   <string name="app_ops_cat_media">メディア</string>
   <string name="app_ops_cat_device">端末</string>
   <string name="app_ops_access_camera">カメラ</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_location">場所</string>
+  <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
+  <string name="app_ops_auto_start">自動起動</string>
+  <string name="app_ops_delete_call_log">通話記録の削除</string>
+  <string name="app_ops_delete_contacts">連絡先を削除</string>
+  <string name="app_ops_delete_mms">MMSの削除</string>
+  <string name="app_ops_delete_sms">MMSの削除</string>
+  <string name="app_ops_draw_on_top">最前面に表示</string>
+  <string name="app_ops_get_usage_stats">使用状況の取得</string>
   <string name="app_ops_keep_device_awake">スリープモードにしない</string>
-  <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
-  <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMS</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
-  <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
+  <string name="app_ops_make_phone_call">発信する</string>
+  <string name="app_ops_modify_calendar">カレンダーの更新</string>
+  <string name="app_ops_modify_call_log">発着信履歴の更新</string>
+  <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+  <string name="app_ops_modify_contacts">連絡先の更新</string>
+  <string name="app_ops_modify_settings">更新の設定</string>
+  <string name="app_ops_mute_unmute_microphone">マイクミュート/ミュート解除</string>
+  <string name="app_ops_play_audio">オーディオの再生</string>
+  <string name="app_ops_post_notification">通知</string>
+  <string name="app_ops_project_media">メディアを表示</string>
+  <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+  <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+  <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+  <string name="app_ops_read_contacts">連絡先の読み取り</string>
+  <string name="app_ops_read_mms">MMSの読み取り</string>
+  <string name="app_ops_read_sms">SMSの読み取り</string>
+  <string name="app_ops_receive_sms">SMSの受信</string>
+  <string name="app_ops_record_audio">録音</string>
+  <string name="app_ops_send_mms">MMSの送信</string>
+  <string name="app_ops_send_sms">SMSの送信</string>
+  <string name="app_ops_toast_window">トースト メッセージ</string>
+  <string name="app_ops_use_alarm_volume">アラームの音量</string>
+  <string name="app_ops_use_audio_focus">オーディオフォーカス</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+  <string name="app_ops_use_master_volume">マスター音量</string>
+  <string name="app_ops_use_media_buttons">メディアボタン</string>
+  <string name="app_ops_use_media_volume">メディアの音量</string>
+  <string name="app_ops_use_notification_volume">通知の音量</string>
+  <string name="app_ops_use_ring_volume">着信音量</string>
+  <string name="app_ops_use_vibrate">バイブフィードバック</string>
+  <string name="app_ops_use_voice_volume">音声通話の音量</string>
+  <string name="app_ops_write_mms">MMSの書き込み</string>
+  <string name="app_ops_write_sms">SMSの書き込み</string>
+  <string name="app_ops_use_fingerprint">指紋認証</string>
+  <string name="app_ops_add_voicemail">ボイスメール</string>
+  <string name="app_ops_read_phone_state">端末の状態を取得</string>
+  <string name="app_ops_scan_wifi">Wi-Fiネットワークのスキャン</string>
+  <string name="app_ops_change_wallpaper">壁紙を変更</string>
+  <string name="app_ops_assist_structure">アシスト構造</string>
+  <string name="app_ops_assist_screenshot">スクリーンショット</string>
+  <string name="app_ops_use_body_sensors">ボディセンサー</string>
+  <string name="app_ops_read_cell_broadcasts">エリアメール</string>
+  <string name="app_ops_mock_location">擬似ロケーション</string>
+  <string name="app_ops_read_external_storage">エクスターナルストレージを読み</string>
+  <string name="app_ops_write_external_storage">エクスターナルストレージを書き</string>
+  <string name="app_ops_turn_on_screen">画面の点灯</string>
+  <string name="app_ops_get_accounts">端末のアカウント</string>
+  <string name="app_ops_run_in_background">バック グラウンドで実行する</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">警告色</string>
+  <string name="battery_saver_color_summary">バッテリーセーバーがONの時にステータスバーとナビゲーションバーをオレンジ色にする</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROMの管理</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">Google カメラで前面カメラと背面カメラを切り替えるには、アプリを起動した状態で2 回ひねる動作を行います</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">フルスクリーンキーボードを無効化</string>
+  <string name="disable_fullscreen_keyboard_summary">横画面時にキーボードが画面全体を占有することはありません</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">音量を増大する</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">充電サウンド</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">条件</string>
+  <string name="power_notifications_conditions_none">無し</string>
+  <string name="power_notifications_conditions_both">接続する、切断する</string>
+  <string name="power_notifications_conditions_connect">接続のみ</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">バイブレーション</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">サイレント</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">個人的な通知音</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">バッテリー統計をリセットする</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">バッテリーの統計をリセットします。</string>
 </resources>

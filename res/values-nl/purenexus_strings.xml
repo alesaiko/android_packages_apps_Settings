@@ -92,8 +92,8 @@
   <string name="app_ops_run_in_background">in achtergrond uitvoeren</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Waarschuwingskleur</string>
+  <string name="battery_saver_color_summary">Oranje status- en navigatiebalk inschakelen wanneer accubesparing actief is</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROM beheer</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">Om over te schakelen naar selfiemodus in Google Camera, draai twee keer met je pols</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Volledig scherm toetsenbord uitschakelen</string>
+  <string name="disable_fullscreen_keyboard_summary">Landschapstoetsenbord zal nooit het volledige scherm innemen</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Toenemende beltoonvolume</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Oplaadgeluiden</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Voorwaarden</string>
+  <string name="power_notifications_conditions_none">Geen</string>
+  <string name="power_notifications_conditions_both">Koppelen en loskoppelen</string>
+  <string name="power_notifications_conditions_connect">Alleen koppelen</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Trillen</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Stil</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Aangepast meldingsgeluid</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Statistieken resetten</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">Accugeschiedenisstatistieken worden gereset</string>
 </resources>

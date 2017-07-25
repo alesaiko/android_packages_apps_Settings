@@ -92,8 +92,8 @@
   <string name="app_ops_run_in_background">futtatás a háttérben</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Figyelmeztetés színe</string>
+  <string name="battery_saver_color_summary">Narancssárga értesítési sáv és navigációs sáv engedélyezése, ha a takarékos üzemmód engedélyezve van</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROM vezérlő</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">A Google Fényképezőgép szelfi módjához, az alkalmazáson belül forgassa meg duplán az eszközt</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Teljes képernyős billentyűzet letiltása</string>
+  <string name="disable_fullscreen_keyboard_summary">A fekvő billentyűzet soha nem fogalalja el a teljes képernyőt</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Emelkedő csengő hangerő</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Töltéshangok</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Feltételek</string>
+  <string name="power_notifications_conditions_none">Nincs</string>
+  <string name="power_notifications_conditions_both">Csatlakoztatás és leválasztás</string>
+  <string name="power_notifications_conditions_connect">Csak csatlakoztatás</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Rezgés</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Néma</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Egyéni értesítési hang</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Statisztika törlése</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">Az akkumulátor használati statisztika törlésre kerül</string>
 </resources>

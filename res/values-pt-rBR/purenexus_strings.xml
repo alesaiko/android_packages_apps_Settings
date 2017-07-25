@@ -92,8 +92,8 @@
   <string name="app_ops_run_in_background">executar em segundo plano</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Cor de aviso</string>
+  <string name="battery_saver_color_summary">Habilitar mudança de cor na barra de status e navegação quando a economia de bateria estiver ativa</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Controle da ROM</string>
@@ -127,7 +127,7 @@
   <string name="pure_version">Versão PureNexus</string>
   <string name="pure_version_default">Desconhecido</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Versão do fornecedor</string>
+  <string name="vendor_version">Versão da imagem do vendor</string>
   <string name="vendor_version_default">Desconhecido</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informação do telefone</string>
@@ -168,26 +168,26 @@
   <string name="double_twist_for_camera_mode_summary_pn">Alterne entre as câmeras traseira e frontal com um movimento rápido do pulso, no Google câmera</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Desabilitar teclado em tela cheia</string>
+  <string name="disable_fullscreen_keyboard_summary">Teclado em modo paisagem nunca ocupará a tela inteira</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Aumentar gradualmente o volume</string>
   <string name="increasing_ring_min_volume_title">Volume inicial</string>
   <string name="increasing_ring_ramp_up_time_title">Tempo de construção</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Mesclar volume das notificações com toque</string>
+  <string name="link_volume_option_title">Unir volume de toque e notificações</string>
   <string name="notification_volume_option_title">Volume de notificação</string>
-  <string name="ring_notification_volume_option_title">Volume de Toque e Notificação</string>
+  <string name="ring_notification_volume_option_title">Unir toque e notificações</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Ajuste do volume dos sons</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Sons de carregamento</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Condições</string>
+  <string name="power_notifications_conditions_none">Nenhuma</string>
+  <string name="power_notifications_conditions_both">Plugando e desplugando</string>
+  <string name="power_notifications_conditions_connect">Plugando apenas</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Silencioso</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Som de notificação personalizado</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Redefinir estatísticas</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">As estatísticas de uso da bateria serão redefinidas</string>
 </resources>

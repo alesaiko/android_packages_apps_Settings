@@ -92,8 +92,8 @@
   <string name="app_ops_run_in_background">spustit na pozadí</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Výstražná barva</string>
+  <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty a navigačního panelu, když je aktivován spořič baterie</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Ovládání ROM</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">Chcete-li přepínat režim selfie ve fotoaparátu Google, přístroj otočte dvakrát rychle za sebou, když jste v aplikaci</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Vypnout klávesnici na celou obrazovku</string>
+  <string name="disable_fullscreen_keyboard_summary">Klávesnice v režimu na šířku nikdy nevyplní celou obrazovku</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Zvyšování hlasitosti vyzvánění</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Zvuk nabíječky</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Podmínky</string>
+  <string name="power_notifications_conditions_none">Žádné</string>
+  <string name="power_notifications_conditions_both">Připojit a odpojit</string>
+  <string name="power_notifications_conditions_connect">Pouze připojit</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrace</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Tichý</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Vlastní zvuk oznámení</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Obnovit statistiky</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
 </resources>

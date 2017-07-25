@@ -81,7 +81,7 @@
   <string name="app_ops_scan_wifi">Nuskaityti Wi-Fi tinklus</string>
   <string name="app_ops_change_wallpaper">keisti darbalaukio foną</string>
   <string name="app_ops_assist_structure">struktūros asistavimas</string>
-  <string name="app_ops_assist_screenshot">ekrano kopija</string>
+  <string name="app_ops_assist_screenshot">ekrano nuotrauka</string>
   <string name="app_ops_use_body_sensors">kūno jutikliai</string>
   <string name="app_ops_read_cell_broadcasts">tinklo transliacijos</string>
   <string name="app_ops_mock_location">imituoti vietą</string>
@@ -92,13 +92,13 @@
   <string name="app_ops_run_in_background">veikti fone</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Įspėjimo spalva</string>
+  <string name="battery_saver_color_summary">Įgalinti oranžines pranešimų ir naršymo juostas, kai akumuliatoriaus tausojimas aktyvuotas</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
-  <string name="header_category_custom">\"ROM\" Valdymas</string>
+  <string name="header_category_custom">ROM Valdymas</string>
   <string name="pure_settings_title">PureNexus Nustatymai</string>
-  <string name="pure_settings_summary">\"ROM\" savybės ir pritaikymas</string>
+  <string name="pure_settings_summary">ROM savybės ir pritaikymas</string>
   <string name="substratum_title">Substratum</string>
   <string name="substratum_summary">Pritaikyti įrenginio temą</string>
   <string name="supersu_title">SuperSU</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">Norėdami įjungti ar išjungti asmenukės režimą \"Google\" kameroje, dukart pasukite, kol esate programoje</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Išjungti viso ekrano klaviatūrą</string>
+  <string name="disable_fullscreen_keyboard_summary">Gulsčiojo režimo klaviatūra niekada neužims viso ekrano</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Didėjantis skambučio garsumas</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Įkrovimo garsai</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Sąlygos</string>
+  <string name="power_notifications_conditions_none">Jokio</string>
+  <string name="power_notifications_conditions_both">Prijungti ir atjungti</string>
+  <string name="power_notifications_conditions_connect">Tik prijungiant</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibruoti</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Begarsė</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Pasirinktinis pranešimų garsas</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Atstatyti statistiką</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">Baterijos istorijos statistika bus atstatyta iš naujo</string>
 </resources>

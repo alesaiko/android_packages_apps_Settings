@@ -92,8 +92,8 @@
   <string name="app_ops_run_in_background">im Hintergrund laufen</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Warnfarbe</string>
+  <string name="battery_saver_color_summary">Statusleiste und Navigationsleiste werden bei aktiviertem Akku-Sparmodus orange dargestellt</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">ROM-Steuerung</string>
@@ -168,8 +168,8 @@
   <string name="double_twist_for_camera_mode_summary_pn">Um in und aus dem Selfie Modus in der Google Kamera zu wechseln, drehen sie das Gerät 2 mal schnell hintereinander wenn sie sich in der App befinden</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
-  <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-  <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+  <string name="disable_fullscreen_keyboard_title">Vollbild-Tastatur deaktivieren</string>
+  <string name="disable_fullscreen_keyboard_summary">Tastatur im Querformat bedeckt nie ganzen Bildschirm</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
@@ -184,10 +184,10 @@
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Ton beim Aufladen</string>
   <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
-  <string name="power_notifications_conditions_title">Conditions</string>
-  <string name="power_notifications_conditions_none">None</string>
-  <string name="power_notifications_conditions_both">Connect and disconnect</string>
-  <string name="power_notifications_conditions_connect">Connect only</string>
+  <string name="power_notifications_conditions_title">Bedingungen</string>
+  <string name="power_notifications_conditions_none">Keine</string>
+  <string name="power_notifications_conditions_both">Verbinden und Trennen</string>
+  <string name="power_notifications_conditions_connect">Nur bei Verbinden</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrieren</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -195,9 +195,9 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Stumm</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Custom notification sound</string>
+  <string name="power_notifications_custom_ringtone_title">Benutzerdefinierter Benachrichtigungston</string>
   <!-- Menu label for reset the battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
+  <string name="menu_stats_reset">Statistiken zurücksetzen</string>
   <!-- Reset stats confirmation dialog's message -->
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="reset_stats_msg">Statistiken für Akku-Verlauf werden zurückgesetzt</string>
 </resources>

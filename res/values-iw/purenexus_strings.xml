@@ -43,11 +43,11 @@
   <string name="app_ops_get_usage_stats">קבל סטטיסטיקות שימוש</string>
   <string name="app_ops_keep_device_awake">שמור במצב פעיל</string>
   <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
+  <string name="app_ops_modify_calendar">עדכן לוח שנה</string>
   <string name="app_ops_modify_call_log">עדכן את יומן השיחות</string>
   <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
+  <string name="app_ops_modify_contacts">עדכן אנשי קשר</string>
+  <string name="app_ops_modify_settings">עדכן את ההגדרות</string>
   <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
   <string name="app_ops_play_audio">נגן שמע</string>
   <string name="app_ops_post_notification">post notification</string>
