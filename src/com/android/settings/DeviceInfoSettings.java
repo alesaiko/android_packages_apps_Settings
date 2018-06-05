@@ -52,6 +52,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
     private static final String LOG_TAG = "DeviceInfoSettings";
 
+    private static final String KEY_MANUAL = "manual";
+    private static final String KEY_REGULATORY_INFO = "regulatory_info";
+    private static final String PROPERTY_URL_SAFETYLEGAL = "ro.url.safetylegal";
     private static final String PROPERTY_SELINUX_STATUS = "ro.build.selinux";
     private static final String KEY_KERNEL_VERSION = "kernel_version";
     private static final String KEY_BUILD_NUMBER = "build_number";
@@ -63,6 +66,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
+    private static final String KEY_SAFETY_LEGAL = "safetylegal";
     private static final String KEY_PURE_VERSION = "pure_version";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
 
@@ -136,6 +140,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SELINUX_STATUS,
                 PROPERTY_SELINUX_STATUS);
 
+        // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
+        removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SAFETY_LEGAL,
+                PROPERTY_URL_SAFETYLEGAL);
+
         // Remove Equipment id preference if FCC ID is not set by RIL
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_EQUIPMENT_ID,
                 PROPERTY_EQUIPMENT_ID);
@@ -154,6 +162,15 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
          * Settings is a generic app and should not contain any device-specific
          * info.
          */
+        // Remove manual entry if none present.
+        removePreferenceIfBoolFalse(KEY_MANUAL, R.bool.config_show_manual);
+
+        // Remove regulatory labels if no activity present to handle intent.
+        removePreferenceIfActivityMissing(
+                KEY_REGULATORY_INFO, Settings.ACTION_SHOW_REGULATORY_INFO);
+
+        removePreferenceIfActivityMissing(
+                "safety_info", "android.settings.SHOW_SAFETY_AND_REGULATORY_INFO");
     }
 
     @Override
@@ -372,6 +389,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 final List<String> keys = new ArrayList<String>();
                 if (isPropertyMissing(PROPERTY_SELINUX_STATUS)) {
                     keys.add(KEY_SELINUX_STATUS);
+                }
+                if (isPropertyMissing(PROPERTY_URL_SAFETYLEGAL)) {
+                    keys.add(KEY_SAFETY_LEGAL);
                 }
                 if (isPropertyMissing(PROPERTY_EQUIPMENT_ID)) {
                     keys.add(KEY_EQUIPMENT_ID);
