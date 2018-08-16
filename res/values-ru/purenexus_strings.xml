@@ -71,7 +71,7 @@
   <string name="app_ops_use_media_volume">Изменение громкости мультимедиа</string>
   <string name="app_ops_use_notification_volume">Изменение громкости уведомлений</string>
   <string name="app_ops_use_ring_volume">Изменение громкости звонка</string>
-  <string name="app_ops_use_vibrate">Изменение силы вибрации</string>
+  <string name="app_ops_use_vibrate">Использование вибромоторчика</string>
   <string name="app_ops_use_voice_volume">Изменение громкости разговора</string>
   <string name="app_ops_write_mms">Создание MMS</string>
   <string name="app_ops_write_sms">Создание SMS</string>
@@ -86,14 +86,14 @@
   <string name="app_ops_read_cell_broadcasts">Чтение сообщений оповещения населения</string>
   <string name="app_ops_mock_location">Доступ к местоположению</string>
   <string name="app_ops_read_external_storage">Чтение внешней памяти</string>
-  <string name="app_ops_write_external_storage">Запись на внешнюю память</string>
+  <string name="app_ops_write_external_storage">Запись во внешнюю память</string>
   <string name="app_ops_turn_on_screen">Включение экрана</string>
   <string name="app_ops_get_accounts">Получение списка аккаунтов</string>
   <string name="app_ops_run_in_background">Возможность работы в фоне</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Цветовая индикация</string>
-  <string name="battery_saver_color_summary">Менять цвет навигационной и статусной панелей после активации режима энергосбережения</string>
+  <string name="battery_saver_color_summary">Менять цвета навигационной и статусной панелей после активации режима энергосбережения</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Управление устройством</string>
@@ -138,7 +138,7 @@
   <string name="expanded_hide_status">Скрывать панель состояния</string>
   <string name="expanded_hide_navigation">Скрывать панель навигации</string>
   <string name="expanded_hide_both">Скрывать обе панели</string>
-  <string name="expanded_nothing_to_show">Для настройки локального режима погружения для различных приложений в отдельности отключите \"Глобальный режим погружения\"</string>
+  <string name="expanded_nothing_to_show">Для возможности настройки режима погружения для различных приложений по отдельности отключите \"Глобальный режим погружения\"</string>
   <string name="expanded_desktop_state">Расширенный режим</string>
   <string name="expanded_enabled_for_all">Глобальный режим погружения</string>
   <string name="expanded_user_configurable">Расширенные пользовательские настройки</string>
@@ -169,14 +169,14 @@
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
   <string name="disable_fullscreen_keyboard_title">Отключить полноэкранную клавиатуру</string>
-  <string name="disable_fullscreen_keyboard_summary">Запретить клавиатуре занимать весь экран в ландшафтном режиме ввода</string>
+  <string name="disable_fullscreen_keyboard_summary">Запретить виртуальной клавиатуре занимать всю площадь экрана в ландшафтном режиме ввода</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
   <string name="increasing_ring_min_volume_title">Начальная громкость</string>
   <string name="increasing_ring_ramp_up_time_title">Период увеличения громкости</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Связывать громкость звонка и уведомлений</string>
+  <string name="link_volume_option_title">Объединить громкость звонка и уведомлений</string>
   <string name="notification_volume_option_title">Громкость уведомлений</string>
   <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
   <!-- Volume settings - Volume adjustment sound -->
@@ -195,7 +195,7 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Без звука</string>
   <!-- Sound settings, custom charging sound, setting check box label -->
-  <string name="power_notifications_custom_ringtone_title">Сторонний звук зарядки</string>
+  <string name="power_notifications_custom_ringtone_title">Пользовательский звук зарядки</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Сброс статистики</string>
   <!-- Reset stats confirmation dialog's message -->
